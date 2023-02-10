@@ -1,0 +1,55 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+body{
+  height: 100vh;
+  background: linear-gradient(111.34deg, rgb(202, 159, 102), rgb(237, 230, 206));
+}
+
+.container{
+  background-color:rgb(202, 159, 102);
+  display: flex;
+  padding: 30px;
+
+}
+
+.container--text{
+  margin-left:120px ;
+  margin-top:80px;
+  width:50%;
+}
+
+form{
+  display:flex;
+  flex-direction: column;
+  width:50%;
+
+}
+
+input{
+  padding: 10px 15px;
+}
+
+input,
+textarea {
+  width:50%;
+  margin: 10px 0;
+  height: 30px;
+  border-radius: 10px;
+}
+
+textarea{
+  height: 100px;
+  padding: 10px 15px;
+
+}
+
+.btn{
+  width:30%;
+  padding: 10px 15px;
+  background: linear-gradient(rgb(37, 81, 148), rgb);
+  
+}
